@@ -1,0 +1,16 @@
+{
+  "name": "kuetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js",
+    "concurrently": "concurrently --kill-others \"npm start 1\" \"npm start 2\" \"npm start 3\" \"npm start 4\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^3.5.0"
+  }
+}

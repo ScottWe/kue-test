@@ -1,0 +1,7 @@
+{
+	"addr": "localhost",
+	"port": 6379,
+	"count": 5,
+	"id": 1
+}
+
